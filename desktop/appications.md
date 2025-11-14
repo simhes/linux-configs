@@ -49,7 +49,9 @@
 | kolour | paint | qt | kde | N/A |
 | inkspace | svg | gtk | N/A | N/A |
 | filelight | space-viewer | qt | kde | N/A |
-
+| emacs | code | simpel | N/A | N/A |
+| vim | code | simpel | N/A | N/A |
+| neovim | code | simpel | vim but better | N/A |
 # server
 
 | name | use | type | comment | developer |
