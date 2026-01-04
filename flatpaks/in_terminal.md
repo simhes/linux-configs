@@ -16,7 +16,9 @@ flatpak run <appilaciton id> "$@"
 ~~~
 commments:
 <application name> : name to use in terminal
+
 <application id> : flatpak id, ex: org.mozilla.firefox
+
 *"$@"* : retuns file *commands* to flatpak, ex : firefox *--private-window op.se* => flatpak run org.mozzila.firefox *--private-window op.se*
 
 # exampel
