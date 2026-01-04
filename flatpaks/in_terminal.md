@@ -22,11 +22,8 @@ commments:
 *"$@"* : retuns file *commands* to flatpak, ex : firefox *--private-window op.se* => flatpak run org.mozzila.firefox *--private-window op.se*
 
 # exampel
+firefox
 ~~~
-# tee /usr/bin/firefox <<EOF
 #!/bin/bash
 flatpak run org.mozilla.firefox "\$@"
-EOF
-
-# chmod +x /usr/bin/firefox
 ~~~
